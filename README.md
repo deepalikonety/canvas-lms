@@ -43,5 +43,5 @@ This project was created as part of an internship assignment for **Sunheri**.
 4. Build for production:
    ```bash
    npm run build
-   
-## Author: Deepali Konety
+  
+- **Author: Deepali Konety**
