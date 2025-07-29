@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import "tailwindcss";
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --canvas-dark-bg: #1e1f26;        
+  --canvas-dark-panel: #2a2b33;    
+  --canvas-dark-text: #e0e0e0;      
+  --canvas-purple: #4f3db0;         
+  --canvas-dark-purple: #3d2e8e;    
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: var(--canvas-gray-bg);
+}
+
+.react-calendar {
+  background: white;
+  border: none;
+}
+.dark .react-calendar {
+  background: var(--canvas-dark-panel);
+  color: var(--canvas-dark-text);
+}
