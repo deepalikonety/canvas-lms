@@ -1,12 +1,47 @@
-# React + Vite
+# Canvas LMS Frontend Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive front‑end clone of Canvas LMS built with **React** and **TailwindCSS**.  
+This project was created as part of an internship assignment for **Sunheri**.
 
-Currently, two official plugins are available:
+## Live Demo
+[Click here to view the deployed project](https://canvas-lms-three.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Dashboard Page**
+  - Sidebar Navigation (Dashboard, Courses, Calendar, Inbox, Help)
+  - Responsive design (desktop, tablet, mobile with hamburger menu)
+  - Header with student name & current date
+  - Course Grid: 6 course cards showing title, instructor, progress bar, and "Go to Course"
+  - To‑Do List with due dates & checkboxes
+  - Notification Banner
+  - Interactive Calendar with tasks
 
-## Expanding the ESLint configuration
+- **Course Detail Page** (`/courses/:id`)
+  - Clickable breadcrumb navigation
+  - Tabbed sections: **Overview**, **Assignments**, **Grades**
+  - Overview with course description and modules list
+  - Assignments & Grades displayed in tables
+  - Overall Grade Progress bar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **React.js** (Vite)
+- **TailwindCSS**
+- **React Router**
+- **Mock JSON Data**
+
+## Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/deepalikonety/canvas-lms.git
+   cd canvas-lms
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the project locally:
+   ```bash
+   npm run dev
+4. Build for production:
+   ```bash
+   npm run build
+   
+## Author: Deepali Konety
